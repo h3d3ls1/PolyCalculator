@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="POL">
+<meta name="theme-color" content="#0f1420">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAJs0lEQVR4nO2dbXATxxnHVzYSQjKWcYyxLLvYdCDFNraDTYjTkhY+hGSYdKAkJe20KU1m0plO6EzzpZlpP5dkOpMPTaZtpi+hL5NMpo1Lp8lMSNJiNy+A3wKt7E7t1DZjCbARJhhZtiVj9cO1qri75ySdbu/2zv/fJ7HSPax3f3p2b+9u5QpUNTAA1CixugJAXCAHIIEcgARyABLIAUggByCBHIAEcgASyAFIIAcggRyABHIAEsgBSNZYXYH/09yx3+oqiMLw4Cmrq8AYYy7LL9nDCQ2stcQyOeBEQVhiiTVzDphRKJa0mNmZQ+OPnBztN7MmItOwbRf1lpkpxFQ5VM2AExqoWmKaH+bJoTQDWuSJUhFz/DBpzgEzikHZVuZMQczIHLK/BFroRpZCeOcP7pkDZhiIrPV45w9TT2VhRvGY2YZ85cB6Bm+4tjDHOUehA0pD1zFONbEdk2de0P6AOZMPky68aZsBLWRIDaKhyORov8ZCmVFYf1U2Y8bIX5+ztibi0LTve4yxhq5jOVMIV3gNK9ljikbakMyAFqpIimj4kZ08eIwsVt7sAzO0kVrGwjEXd4IBEi5y5DOmIG3kg3byyG5bHue01k9I8+GxPx9dH1yv8YFUIpWML92Izl3958xE73h0KMrSeUV2lbhCHaFQR12wPeivLvNWeD0+TzK+tHhj8eblm5eGLkUGIlf+fllHDQd+1X/uJ2fzqoSo2EOOnLh9brfP7a8uq72rtu2r7dcnZnuO91waimocUlJa8pmHtu/8RkegPiB7y1uxzluxrmLzhvp7PrWbsdhobPDlgY/fHctTOMfgzDnHhsbKQy99qeVwC/UBX5X/4EuH9v5gn9IMJVXbqvYff+DBHx3w+D2GVlN0nCkHY4y52Oef2Vu3q075TnkocOR3R4LttQXF2/KFLQ+feMRb7jWofjbAuXIwxlzsc0/vkZW5fe4Dzx/wVfl1xNvQWHn/sw+4SlxGVM4G2HXOkT3dc/s8gbpA86Hm5sMtsp67Y2tV5ZbK2fHZTEnXU/dWfvoOZcDJv02Eu8MzI9PJm8m1AW+wLdh6pLV2Z0j2sfq761sfbbvwynmD/x4hcULmSCWSsdGrvc/1nPupytlBTVsw89q/0d90sFn+iTTr+eHpN59+4+L7kwuzC7dStxKx+X//5eM/Ptl97mcqAXce7Viz1q5fqoJwghwZRt/6l7LQV+nLvG45vKPUUyr7wIVXzw93h1UDDvyif+ztMWXArfu3FVdTe+AoOXJSf0+9rGR5abn/530ah5x98UPlGWz9bnkcR+IoObY9eKeyMHEtIb1w+9wbt1fL3r34wcWlm0saMecuzV35h3wRLNQhn4s4EieMnW6fJ1BX3nSwueXhHcp3M+ubZZvWl5TKvwwz4Ss540+Hp2tag9klvip/qaf0VvKW3irbA7vK0fn4rs7Hc9/tcm0sljlV8QZUlijiM/GcQeavzisLvRXr5vM41tY4aliRk2bvP/9e5l+eMpX1zdTCcs4wqURSWbhWLZrDcK4cadb77OlIfyRTkJpX6WP3uty50+1T8SAZV4nmMOw6rGhzffJ67/HT0cHbLrwtfLKo/GRZdVnOaP6NKsupC58s6K6eXXCIHMuLy9Il+5mRmYne8ehgRHn+GZ+Op1fSsiXU6paanME3tWySlSSuJRw/G2X2lUPH3RKpRHJmZHrT7TZs/uxmT5lHY4xYX1tesyMoK4wORlQ/7DCcO+dQY+rclKxkzdo1dz+5W+OQrqfuZYoLbVNn5XEcyeqSI/x6WDkctH2lvemQ4oILY4yxzid2bb1/q6wwMZsYe3uUS/0Ew67Dij7mZ+IjJ4d3fLn1tlIX2/v9fY17GsOvh6eHp5PxJW/AW9MWbHu0TXlVljH20a+HlhdznwA7gNUlB2PszItnQp11lVsqZeUN9zU23NeY8/BI39SFV8/n8x/lXKaL9E396dsn8wllFatrWGGMpRLJN7/7RiKmsuiZk+sTs6eeeSu9slpuJV11cjDG5qI3Xvvaa5cv5L6nPJvxnvE/HP394pzKYolTWXXDikQiNn/yW93bv9h012M7A3U57jGOjcaGTgyMvbPq7j5fpXIwxlaWV4a7wyMnh0OddaHOUG17rb+6zFvudfvdyXjyv8+tfBSN9kcKzTGOwR5y/OahE5wip1fSkb6pSF+x6xb8amghq3HOAfIEcgASy+SQtp2QtqAAFDm36OAKMgcgsVIOJA9trE0bzPKzlckzLzR0HZNaAXt1ZMh8YazdE8z6U1nJD4YUosBaM5gIcrD/tQI2nMxguRYSQsghIUiLgAw4WwEkkAOQQA5AAjkACeQAJJADkEAOQAI5AAnkACSQA5AItHwuoePXqQr6wUTe8b/53hOFxn95zy8LPcQcxMoc+n63LP+jeMfXYYbuo0xAIDmK+UW7fI7lHb+YPhbTD1HkKP63DrUj8I5ffO8K6IcQchj1K5hUHN7xjepX0fwQQg4gJpADkEAOQAI5AAnkACSQA5BADkACOQAJ5AAkkAOQQA5AAjkACeQAJJADkEAOQAI5AAnkACSQA5BADkACOQCJEHIU9NSQjji84xv1VJJoTzcJIQczov+0I/COX3y/imYGE0cOVlz/5XMs7/jF9K6AZjCh5GB6+y//o3jH19fHYprBBHyQ2qj5gVXxhe1pHYiVOYBQQA5AAjkACeQAJJADkEAOQACTCLYLZfTfB6He+Xmj80I9/W+gh5iBW5rD7boI6zNB9lAkIJIfddxMspo/F9EMUOey+m2DxvSugH0LIYffdBI3qV9H8EEIOICaQA5BADkACOQAJ5AAkkAOQQA5AAjkACeQAJJADkEAOQAI5AAnkACSQA5BADkACOQAJ5AAkkAOQQA5AAjkAiRBy2H03QaOeShLt6SYh5GD2302w+H4VzQwmjhzM/rsJFtO7AprBhJKD2X83QX19LKYZTMAHqe2+m6CwPa0DsTIHEArIAUggByDhIsfw4KnMa6MeYgZKsts2u82NApkDkEAOQMJLDowsvOE9pjBkDqCBSXIgeRiLOe3JUQ5ZroMfRiFrSU5jCuOdOfjVG0hwbWFT5xxIHsVjZhtylwODi4GYNqBIuAJVDVz/A4nmjv2yEt5XRx2G8ktlwpBt0rCi/EuQQvLHEjOYaZlDQpk/GFKIJqpfIdOm+abKwQg/JGBJBo20auYJoNlySGgoAijMXxewZvkc6x+FYkmLWZM5skEW0cDab5H1cmSAJRkEyawCyQFEA5fsAQnkACSQA5BADkACOQAJ5AAkkAOQQA5AAjkACeQAJJADkEAOQPIfDk0vK9m9oCUAAAAASUVORK5CYII=">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>POL - Calculadora Sí/No</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #0f1420; color: #e8ecf4; margin: 0 auto; padding: 20px; max-width: 720px;
+  }
+  h1 { font-size: 22px; margin-bottom: 2px; }
+  .sub { color: #9aa5b8; font-size: 13px; margin-bottom: 16px; }
+  .panel { background: #1a2132; border-radius: 12px; padding: 16px; margin-bottom: 14px; border: 1px solid #2a3550; }
+  label { display: block; font-size: 12px; color: #9aa5b8; margin-bottom: 4px; }
+  input[type=number], select {
+    width: 100%; padding: 10px; font-size: 17px; border-radius: 8px;
+    border: 1px solid #3a4767; background: #0f1420; color: #fff; margin-bottom: 10px;
+  }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .resumen { background: #101828; border-radius: 8px; padding: 10px 12px; font-size: 14px; line-height: 1.6; }
+
+  .sliderBox { margin: 14px 0; }
+  .sliderHead { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
+  .sliderHead .val { font-size: 22px; font-weight: 700; }
+  .sliderHead .lab { font-size: 13px; color: #9aa5b8; }
+  input[type=range] { width: 100%; height: 34px; accent-color: #4f7cff; cursor: pointer; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .chip {
+    border: 1px solid #3a5a9f; background: #16203a; color: #cfe0ff;
+    padding: 9px 14px; border-radius: 20px; font-size: 14px; cursor: pointer;
+  }
+  .chip:active { background: #24407a; }
+
+  .caja { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .resultado {
+    border-radius: 10px; padding: 14px; text-align: center;
+    border: 1px solid #2a3550; background: #101828;
+  }
+  .resultado .quien { font-size: 13px; color: #9aa5b8; }
+  .resultado .cuanto { font-size: 26px; font-weight: 800; margin-top: 4px; }
+  .win { color: #7be495; }
+  .lose { color: #ff9f9f; }
+  .zero { color: #ffd97b; }
+
+  .cash { font-size: 14px; line-height: 1.7; margin-top: 8px; }
+  .cash b { color: #ffd97b; }
+  .warn {
+    background: #3a1d1d; border: 1px solid #6f2a2a; color: #ffb3b3;
+    border-radius: 8px; padding: 9px 12px; font-size: 13px; margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>POL · Calculadora Sí / No</h1>
+<div class="sub">Mueve los deslizables o toca un botón rápido. Todo se recalcula al instante.</div>
+
+<div class="panel">
+  <div class="grid">
+    <div>
+      <label>Compraste</label>
+      <select id="lado"><option value="SI">SÍ</option><option value="NO">NO</option></select>
+    </div>
+    <div>
+      <label>Contratos</label>
+      <input type="number" id="n" value="200" min="1" step="1">
+    </div>
+    <div>
+      <label>Precio de compra</label>
+      <input type="number" id="c" value="0.51" min="0.01" max="0.99" step="0.01">
+    </div>
+    <div>
+      <label>Precio AHORA de tu lado</label>
+      <input type="number" id="p" value="0.75" min="0.01" max="0.99" step="0.01">
+    </div>
+  </div>
+  <div class="resumen" id="resumen"></div>
+</div>
+
+<div class="panel">
+  <div class="sliderBox">
+    <div class="sliderHead">
+      <span class="lab" id="labVender">Contratos que VENDES de tu lado</span>
+      <span class="val" id="valQ">0</span>
+    </div>
+    <input type="range" id="q" min="0" value="0" step="1">
+  </div>
+  <div class="sliderBox">
+    <div class="sliderHead">
+      <span class="lab" id="labComprar">Contratos que COMPRAS del otro lado</span>
+      <span class="val" id="valR">0</span>
+    </div>
+    <input type="range" id="r" min="0" value="0" step="1">
+  </div>
+
+  <div class="chips" id="chips"></div>
+
+  <div class="cash" id="cash"></div>
+  <div id="falta"></div>
+</div>
+
+<div class="panel">
+  <div class="sub" style="margin-bottom:6px">Resultado final según quién gane (contando lo que ya invertiste)</div>
+  <div class="caja">
+    <div class="resultado">
+      <div class="quien" id="q1">Si gana …</div>
+      <div class="cuanto" id="r1">0</div>
+    </div>
+    <div class="resultado">
+      <div class="quien" id="q2">Si gana …</div>
+      <div class="cuanto" id="r2">0</div>
+    </div>
+  </div>
+  <div class="cash" id="comp" style="margin-top:12px"></div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+let q = 0, r = 0;
+const fmt = x => (Math.round(x*100)/100).toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2});
+const money = x => (x < -0.004 ? '−' : x > 0.004 ? '+' : '') + fmt(Math.abs(x)) + ' $';
+const cls = x => x > 0.004 ? 'win' : x < -0.004 ? 'lose' : 'zero';
+
+function datos() {
+  const lado = $('lado').value;
+  return {
+    lado,
+    otro: lado === 'SI' ? 'NO' : 'SÍ',
+    N: Math.max(1, Math.floor(parseFloat($('n').value) || 1)),
+    c: Math.min(0.99, Math.max(0.01, parseFloat($('c').value) || 0.5)),
+    p: Math.min(0.99, Math.max(0.01, parseFloat($('p').value) || 0.5)),
+  };
+}
+
+function render() {
+  const d = datos();
+  const S = d.N * d.c;
+  const pO = +(1 - d.p).toFixed(4);
+  const rMax = Math.max(1, Math.ceil(d.N * d.p / pO));
+
+  q = Math.min(Math.round(q), d.N);
+  r = Math.min(Math.round(r), rMax);
+  $('q').max = d.N; $('q').value = q;
+  $('r').max = rMax; $('r').value = r;
+  $('valQ').textContent = q;
+  $('valR').textContent = r;
+  $('labVender').textContent = `Contratos del ${d.lado} que VENDES (te quedan ${d.N - q})`;
+  $('labComprar').textContent = `Contratos del ${d.otro} que COMPRAS`;
+
+  $('resumen').innerHTML =
+    `Tienes <b>${d.N}</b> del ${d.lado} a ${fmt(d.c)} → invertiste <b>${fmt(S)} $</b>.<br>` +
+    `Ahora tu lado vale <b>${fmt(d.p)}</b> y el ${d.otro} vale <b>${fmt(pO)}</b>.`;
+
+  const cobro = q * d.p;
+  const coste = r * pO;
+  const cash = cobro - coste;
+  $('cash').innerHTML =
+    `Vendiendo ${q} del ${d.lado} cobras <b>${fmt(cobro)} $</b> · ` +
+    `Comprando ${r} del ${d.otro} pagas <b>${fmt(coste)} $</b> · ` +
+    (cash >= 0 ? `Te sobran <b>${fmt(cash)} $</b>` : `Te faltan <b>${fmt(-cash)} $</b>`);
+  $('falta').innerHTML = cash < -0.004
+    ? `<div class="warn">⚠️ Estás comprando más ${d.otro} de lo que cubre la venta: tendrías que añadir ${fmt(-cash)} $ de tu bolsillo.</div>` : '';
+
+  const resLado = (d.N - q) + cash - S;
+  const resOtro = r + cash - S;
+  $('q1').textContent = `Si gana ${d.lado}`;
+  $('r1').textContent = money(resLado); $('r1').className = 'cuanto ' + cls(resLado);
+  $('q2').textContent = `Si gana ${d.otro}`;
+  $('r2').textContent = money(resOtro); $('r2').className = 'cuanto ' + cls(resOtro);
+
+  $('comp').innerHTML =
+    `Composición final: <b>${d.N - q}</b> del ${d.lado} + <b>${r}</b> del ${d.otro}` +
+    (cash > 0.004 ? ` + <b>${fmt(cash)} $</b> en caja` : '') + '.';
+
+  const chips = [
+    { t: 'No tocar nada', f: () => { q = 0; r = 0; } },
+    { t: 'Recuperar mi dinero', f: () => { q = Math.min(d.N, Math.ceil(S / d.p)); r = 0; } },
+    { t: `${d.lado} a 0 · máx ${d.otro}`, f: () => {
+        q = Math.max(0, d.N - S);
+        r = Math.floor(q * d.p / pO);
+      } },
+    { t: 'Mismo resultado gane quien gane', f: () => {
+        q = Math.round(d.N * pO);
+        r = Math.round(d.N * d.p);
+      } },
+    { t: `Todo al ${d.otro}`, f: () => {
+        q = d.N;
+        r = Math.floor(d.N * d.p / pO);
+      } },
+  ];
+  $('chips').innerHTML = '';
+  chips.forEach(ch => {
+    const b = document.createElement('button');
+    b.className = 'chip'; b.textContent = ch.t;
+    b.onclick = () => { ch.f(); render(); };
+    $('chips').appendChild(b);
+  });
+}
+
+$('q').addEventListener('input', e => { q = +e.target.value; render(); });
+$('r').addEventListener('input', e => { r = +e.target.value; render(); });
+['lado','n','c','p'].forEach(id => $(id).addEventListener('input', () => { render(); }));
+render();
+</script>
+</body>
+</html>
+
+
+
+
